@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import MenuItem from '../menu-item/menu-item.component';
 
 class Directory extends React.Component {
