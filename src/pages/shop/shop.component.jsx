@@ -4,7 +4,7 @@ import { selectCollections } from '../../redux/shop/shop.selectors';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import CollectionsOverview from '../../components/collections-overview/collections-overview.component';
-import CollectionPage from '../collection/collection/collection.component';
+import CollectionPage from '../collection/collection.component';
 
 const ShopPage = ({ match }) => (
   <div className="shop-page">
